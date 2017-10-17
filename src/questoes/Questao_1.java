@@ -3,18 +3,7 @@ import java.util.Scanner;
 
 public class Questao_1 {
 	
-	public static Scanner sc = new Scanner(System.in);
-
-//	public static void main(String[] args) {
-//		int maior;
-//		final int QTD_NUMS = 5;		
-//		int[] vet = new int[QTD_NUMS];		
-//
-//		obterNumeros(vet);
-//		maior = encontrarMaiorNumero (vet);
-//		exibirMaiorNumero(maior);
-//		
-//	}
+	public  Scanner sc = new Scanner(System.in);
 	
 	public void obterNumeros(int[] vet) {	
 		System.out.println("Informe 5 números:");	

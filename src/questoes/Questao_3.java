@@ -3,16 +3,9 @@ import java.util.Scanner;
 
 public class Questao_3 {
 	
-	public static Scanner sc = new Scanner(System.in);	
+	public  Scanner sc = new Scanner(System.in);	
 
-//	public static void main(String[] args) {
-//		int num = obterNumero();
-//		verificarNumeroPrimo(num);
-//		boolean situacaoPrimo = verificarNumeroPrimo(num);
-//		exibirResulado(num, situacaoPrimo);		
-//	}
-	
-	public static int obterNumero(){
+	public  int obterNumero(){
 		System.out.println("Informe um número maior ou igual à zero:");
 		return sc.nextInt();
 	}
@@ -30,7 +23,7 @@ public class Questao_3 {
 		return true;
 	}
 
-	public static void exibirResultado(int n, boolean situacaoPrimo) {
+	public  void exibirResultado(int n, boolean situacaoPrimo) {
 		if(situacaoPrimo) {
 			System.out.println("O número " + n + " é primo.");
 		} else {
